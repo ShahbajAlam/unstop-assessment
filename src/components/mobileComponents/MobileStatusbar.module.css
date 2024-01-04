@@ -1,0 +1,40 @@
+.statusbar {
+    display: flex;
+    height: 40px;
+    padding: 7px 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+
+    img {
+        width: 28.426px;
+        height: 11.089px;
+        flex-shrink: 0;
+        fill: #000;
+    }
+
+    div {
+        display: flex;
+        height: 11px;
+        padding: 0px 1px;
+        align-items: center;
+        gap: 8px;
+
+        .network {
+            width: 15.5px;
+            height: 9.778px;
+            fill: #000;
+        }
+
+        .wifi {
+            width: 13.925px;
+            height: 10.052px;
+            fill: #000;
+        }
+
+        .battery {
+            width: 21.719px;
+            height: 9.472px;
+        }
+    }
+}

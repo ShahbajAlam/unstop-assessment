@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: #1c4980;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .imageContainer {
+        display: flex;
+        gap: 4px;
+    }
+}
+
+.search,
+.filter,
+.bar {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #fff;
+
+    img {
+        width: 22px;
+        height: 22px;
+        flex-shrink: 0;
+    }
+}
+
+.filter img {
+    width: 24px;
+    height: 24px;
+}
+
+.bar img {
+    width: 16px;
+    height: 16px;
+}

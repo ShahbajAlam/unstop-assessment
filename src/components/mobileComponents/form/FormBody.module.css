@@ -1,0 +1,81 @@
+.body {
+    display: flex;
+    height: 517px;
+    padding: 16px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    background: #fff;
+}
+
+.nameLabel,
+.purposeLabel,
+.descriptionLabel {
+    color: #1c4980;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.name {
+    display: flex;
+    height: 50px;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    background: #fff;
+
+    p {
+        color: #8da4bf;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.purpose,
+.description {
+    display: flex;
+    height: 50px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    background: #fff;
+
+    p {
+        color: #8da4bf;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+::placeholder {
+    color: #8da4bf;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

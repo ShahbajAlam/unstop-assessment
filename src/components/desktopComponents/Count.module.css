@@ -1,0 +1,33 @@
+.upper {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.upper p:nth-child(1) {
+    color: #1c4980;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.upper p:nth-child(2) {
+    color: #05c165;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+}
+
+.lower p {
+    color: #1c4980;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+}

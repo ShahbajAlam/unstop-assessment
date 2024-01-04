@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.myAssessment,
+.unstopAssessment {
+    display: flex;
+    height: 50px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-bottom: 2px solid #0073e6;
+    background: #fff;
+
+    p {
+        color: #0073e6;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.unstopAssessment {
+    border-bottom: 2px solid #f6f8fa;
+}

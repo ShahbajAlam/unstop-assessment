@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #dadce0;
+    background: #fff;
+
+    img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.title {
+    color: #1c4980;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

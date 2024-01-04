@@ -1,0 +1,51 @@
+.assessment {
+    display: flex;
+    height: 50px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            flex-shrink: 0;
+            color: #1c4980;
+        }
+
+        p {
+            color: #1c4980;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22.4px;
+        }
+    }
+}
+
+.laptop {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #fff;
+
+    img {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    inset: 0;
+    bottom: auto;
+    z-index: 2;
+}
+
+.desktopContainer {
+    min-height: 100vh;
+    background: #f6f8fa;
+}
+
+.main {
+    margin-left: 160px;
+    min-height: 100vh;
+}
+
+.assessmentContainer {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 0px 0px 12px 12px;
+    background: #fff;
+}

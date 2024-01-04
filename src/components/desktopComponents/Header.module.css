@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    padding: 0 20px;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 1px solid #dde5ea;
+    background: #fff;
+}
+
+.leftContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+
+    img {
+        width: 4px;
+        height: 46px;
+        stroke-width: 4px;
+        stroke: #dadce0;
+    }
+
+    div {
+        display: flex;
+        height: 70px;
+        padding: 10px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 3px solid #0073e6;
+    }
+}
+
+.assessment {
+    color: #1c4980;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.myAssessment {
+    color: #0073e6;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mobile {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
